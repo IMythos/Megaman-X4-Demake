@@ -6,9 +6,13 @@ public class CameraFollow : MonoBehaviour
     public Transform target;
 
     [Header("Camera Settings")]
-    public float smoothSpeed = 4f;
-    public float lookAheadDistance = 3f;
-    public Vector3 offset = new Vector3(0f, 1.5f, -10f);
+    public float smoothSpeed = 2f;
+    public float lookAheadDistance = 7f;
+
+    [Tooltip("Velocidad con la que la camara cambia al voltear")]
+    public float lookAheadSpeed = 15f;
+
+    public Vector3 offset = new Vector3(0f, 2.4f, -10f);
 
     [Header("Lock Y Position")]
     [Tooltip("Activa para mantener la cámara a una altura fija en el eje Y, ignorando el movimiento vertical del objetivo.")]
@@ -33,7 +37,7 @@ public class CameraFollow : MonoBehaviour
         if (target == null || targetSprite == null) return;
 
         float targetOffsetX = targetSprite.flipX ? -lookAheadDistance : lookAheadDistance;
-        currentOffsetX = Mathf.Lerp(currentOffsetX, targetOffsetX, smoothSpeed * Time.deltaTime);
+        currentOffsetX = Mathf.Lerp(currentOffsetX, targetOffsetX, lookAheadSpeed * Time.deltaTime);
 
         Vector3 desiredPosition = target.position + offset + new Vector3(currentOffsetX, 0, 0);
 
