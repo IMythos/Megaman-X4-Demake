@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\devel\\OneDrive\\Escritorio\\Projects\\Unity\\Megaman_X\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1573B0-FEEB-43B1-107D-B418A02539E4}|Assembly-CSharp.csproj|C:\\Users\\devel\\OneDrive\\Escritorio\\Projects\\Unity\\Megaman_X\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D1573B0-FEEB-43B1-107D-B418A02539E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1573B0-FEEB-43B1-107D-B418A02539E4}|Assembly-CSharp.csproj|C:\\Users\\devel\\OneDrive\\Escritorio\\Projects\\Unity\\Megaman_X\\assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D1573B0-FEEB-43B1-107D-B418A02539E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1573B0-FEEB-43B1-107D-B418A02539E4}|Assembly-CSharp.csproj|C:\\Users\\devel\\OneDrive\\Escritorio\\Projects\\Unity\\Megaman_X\\assets\\scripts\\destroyafteranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D1573B0-FEEB-43B1-107D-B418A02539E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destroyafteranimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D1573B0-FEEB-43B1-107D-B418A02539E4}|Assembly-CSharp.csproj|c:\\users\\devel\\onedrive\\escritorio\\projects\\unity\\megaman_x\\assets\\scripts\\parallaxbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D1573B0-FEEB-43B1-107D-B418A02539E4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\parallaxbackground.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ParallaxBackground.cs",
+              "DocumentMoniker": "C:\\Users\\devel\\OneDrive\\Escritorio\\Projects\\Unity\\Megaman_X\\Assets\\Scripts\\ParallaxBackground.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ParallaxBackground.cs",
+              "ToolTip": "C:\\Users\\devel\\OneDrive\\Escritorio\\Projects\\Unity\\Megaman_X\\Assets\\Scripts\\ParallaxBackground.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ParallaxBackground.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T00:35:40.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "C:\\Users\\devel\\OneDrive\\Escritorio\\Projects\\Unity\\Megaman_X\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
+              "ToolTip": "C:\\Users\\devel\\OneDrive\\Escritorio\\Projects\\Unity\\Megaman_X\\Assets\\Scripts\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T11:37:31.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DestroyAfterAnimation.cs",
+              "DocumentMoniker": "C:\\Users\\devel\\OneDrive\\Escritorio\\Projects\\Unity\\Megaman_X\\Assets\\Scripts\\DestroyAfterAnimation.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DestroyAfterAnimation.cs",
+              "ToolTip": "C:\\Users\\devel\\OneDrive\\Escritorio\\Projects\\Unity\\Megaman_X\\Assets\\Scripts\\DestroyAfterAnimation.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DestroyAfterAnimation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T10:00:38.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\devel\\OneDrive\\Escritorio\\Projects\\Unity\\Megaman_X\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\devel\\OneDrive\\Escritorio\\Projects\\Unity\\Megaman_X\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwHkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T23:29:24.794Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
