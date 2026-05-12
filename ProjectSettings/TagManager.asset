@@ -50,6 +50,9 @@ TagManager:
   - name: Player
     uniqueID: 3689278735
     locked: 0
+  - name: HUD
+    uniqueID: 3551630667
+    locked: 0
   m_RenderingLayers:
   - Default
   m_MigratedRenderPipelines: []
