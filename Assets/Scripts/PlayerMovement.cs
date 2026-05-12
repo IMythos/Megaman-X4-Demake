@@ -5,13 +5,13 @@ using UnityEngine.InputSystem;
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement Stats")]
-    public float moveSpeed = 5f;
-    public float jumpForce = 12f;
-    public float dashSpeed = 12f;
+    public float moveSpeed = 8f;
+    public float jumpForce = 24f;
+    public float dashSpeed = 16f;
     public float dashDuration = 0.4f;
 
     [Range(0f, 1f)]
-    public float jumpCutMultiplier = 0.5f;
+    public float jumpCutMultiplier = 0.6f;
 
     [Header("Ground Check")]
     public Transform groundCheck;
