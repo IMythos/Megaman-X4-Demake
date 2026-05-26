@@ -43,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;
     private bool isDashing;
     private float dashTimeLeft;
-
+    private bool isDashJumping;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
@@ -72,6 +72,11 @@ public class PlayerMovement : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         horizontalInput = moveAction.ReadValue<float>();
 
+        if (!isGrounded && rb.linearVelocity.y <= 0)
+        {
+            isDashJumping = false;
+        }
+
         // Logica de salto
         if (jumpAction.WasPressedThisFrame() && isGrounded)
         {
@@ -80,6 +85,7 @@ public class PlayerMovement : MonoBehaviour
             if (isDashing)
             {
                 isDashing = false;
+                isDashJumping = true;
                 currentJumpForce = jumpForce * dashJumpForceMultiplier;
             }
 
@@ -110,7 +116,7 @@ public class PlayerMovement : MonoBehaviour
         anim.SetBool("isGrounded", isGrounded);
         anim.SetBool("isDashing", isDashing);
 
-        if (isDashing)
+        if (isDashing || isDashJumping)
         {
             ghostTimer -= Time.deltaTime;
 
@@ -138,7 +144,11 @@ public class PlayerMovement : MonoBehaviour
             {
                 isDashing = false;
             }
-        } else
+        } else if (isDashJumping)
+        {
+            rb.linearVelocity = new Vector2(horizontalInput * dashSpeed, rb.linearVelocity.y);   
+        } 
+        else
         {
             rb.linearVelocity = new Vector2(horizontalInput * moveSpeed, rb.linearVelocity.y);
         }
