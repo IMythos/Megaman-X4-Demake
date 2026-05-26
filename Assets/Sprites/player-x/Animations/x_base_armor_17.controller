@@ -11,6 +11,12 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: Speed
     m_EventTreshold: 0.1
+  - m_ConditionMode: 2
+    m_ConditionEvent: isDashing
+    m_EventTreshold: 0
+  - m_ConditionMode: 1
+    m_ConditionEvent: isGrounded
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2197812715902322446}
   m_Solo: 0
@@ -480,6 +486,32 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1102 &2757814745829431300
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: normal_x_attack_1
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: e9bd65ef83dd1dc4ab0b5845adf1e061, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1107 &3240900374599492652
 AnimatorStateMachine:
   serializedVersion: 7
@@ -497,7 +529,7 @@ AnimatorStateMachine:
     m_Position: {x: 830, y: 330, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2197812715902322446}
-    m_Position: {x: 340, y: -10, z: 0}
+    m_Position: {x: 410, y: -10, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6046571946986343482}
     m_Position: {x: 700, y: 240, z: 0}
@@ -518,13 +550,16 @@ AnimatorStateMachine:
     m_Position: {x: 580, y: 540, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7717148716991967394}
-    m_Position: {x: 680, y: -10, z: 0}
+    m_Position: {x: 730, y: -10, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4554796554400235672}
     m_Position: {x: -370, y: -80, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7525014204990075156}
     m_Position: {x: 110, y: 90, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 2757814745829431300}
+    m_Position: {x: 145, y: 155, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 5253859711845380180}
@@ -680,6 +715,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 3
     m_ConditionEvent: yVelocity
     m_EventTreshold: 0.1
+  - m_ConditionMode: 2
+    m_ConditionEvent: isDashing
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1188610810095444200}
   m_Solo: 0

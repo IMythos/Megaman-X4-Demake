@@ -18,6 +18,14 @@ public class PlayerMovement : MonoBehaviour
     public float groundCheckRadius = 0.15f;
     public LayerMask groundLayer;
 
+    [Header("Dash Trail & Jump")]
+    public GameObject ghostPrefab;
+    public float ghostSpawnRate = 0.05f;
+    private float ghostTimer;
+
+    [Tooltip("Dash force multiplier applied to the jump when the player jumps during a dash.")]
+    public float dashJumpForceMultiplier = 1.15f;
+
     [Header("Controls System")]
     public InputAction moveAction;
     public InputAction jumpAction;
@@ -64,9 +72,19 @@ public class PlayerMovement : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         horizontalInput = moveAction.ReadValue<float>();
 
+        // Logica de salto
         if (jumpAction.WasPressedThisFrame() && isGrounded)
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            float currentJumpForce = jumpForce;
+
+            if (isDashing)
+            {
+                isDashing = false;
+                currentJumpForce = jumpForce * dashJumpForceMultiplier;
+            }
+
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, currentJumpForce);
+            isGrounded = false;
         }
 
         if (jumpAction.WasPressedThisFrame() && rb.linearVelocity.y > 0)
@@ -91,6 +109,20 @@ public class PlayerMovement : MonoBehaviour
         anim.SetFloat("yVelocity", rb.linearVelocity.y);
         anim.SetBool("isGrounded", isGrounded);
         anim.SetBool("isDashing", isDashing);
+
+        if (isDashing)
+        {
+            ghostTimer -= Time.deltaTime;
+
+            if (ghostTimer <= 0)
+            {
+                SpawnGhost();
+                ghostTimer = ghostSpawnRate;
+            }
+        } else
+        {
+            ghostTimer = 0f;
+        }
     }
 
     private void FixedUpdate()
@@ -127,5 +159,16 @@ public class PlayerMovement : MonoBehaviour
 
         Quaternion dustRotation = spriteRenderer.flipX ? Quaternion.Euler(0, 180, 0) : Quaternion.identity;
         Instantiate(dashDustPrefab, dustSpawnPoint.position, dustRotation);
+    }
+
+    void SpawnGhost()
+    {
+        if (ghostPrefab == null) return;
+
+        GameObject ghost = Instantiate(ghostPrefab, transform.position, transform.rotation);
+        SpriteRenderer ghostSR = ghost.GetComponent<SpriteRenderer>();
+
+        ghostSR.sprite = spriteRenderer.sprite;
+        ghostSR.flipX = spriteRenderer.flipX;
     }
 }
