@@ -35,6 +35,23 @@ public class PlayerMovement : MonoBehaviour
     public GameObject dashDustPrefab;
     public Transform dustSpawnPoint;
 
+    [Header("Buster System")]
+    public InputAction shootAction;
+    public Transform shootPoint;
+    public GameObject normalShotPrefab;
+    public GameObject semiChargedShotPrefab;
+    public GameObject fullyChargedShotPrefab;
+    public float shootAnimDuration = 0.25f;
+    private float shootTimeLeft;
+    private bool isShooting;
+
+    [Space]
+    public float semiChargeThreshold = 0.5f;
+    public float fullChargeThreshold = 1.2f;
+
+    public float chargeTimer;
+    private bool isCharging;
+
     private Rigidbody2D rb;
     private Animator anim;
     private SpriteRenderer spriteRenderer;
@@ -57,6 +74,7 @@ public class PlayerMovement : MonoBehaviour
         moveAction.Enable();
         jumpAction.Enable();
         dashAction.Enable();
+        shootAction.Enable();
     }
 
     private void OnDisable()
@@ -64,11 +82,62 @@ public class PlayerMovement : MonoBehaviour
         moveAction.Disable();
         jumpAction.Disable();
         dashAction.Disable();
+        shootAction.Disable();
     }
 
     // Update is called once per frame
     void Update()
     {
+        // X-BUSTER
+        if (shootAction.WasPressedThisFrame())
+        {
+            FireBuster(normalShotPrefab);
+            isCharging = true;
+            chargeTimer = 0f;
+
+            isShooting = true;
+            shootTimeLeft = shootAnimDuration;
+            anim.SetBool("isShooting", true);
+        }
+
+        if (isShooting)
+        {
+            shootTimeLeft -= Time.deltaTime;
+
+            if (shootTimeLeft <= 0)
+            {
+                isShooting = false;
+                anim.SetBool("isShooting", false);
+            }
+        }
+
+        if (shootAction.IsPressed() && isCharging)
+        {
+            chargeTimer += Time.deltaTime;
+
+            if (chargeTimer >= fullChargeThreshold)
+            {
+                // Carga completa
+            } else if (chargeTimer >= semiChargeThreshold)
+            {
+                // Carga media
+            }
+        }
+
+        if (isCharging && !shootAction.IsPressed())
+        {
+            if (chargeTimer >= fullChargeThreshold)
+            {
+                FireBuster(fullyChargedShotPrefab);
+            } else if (chargeTimer >= semiChargeThreshold)
+            {
+                FireBuster(semiChargedShotPrefab);
+            }
+
+            isCharging = false;
+            chargeTimer = 0f;
+        }
+
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
         horizontalInput = moveAction.ReadValue<float>();
 
@@ -180,5 +249,19 @@ public class PlayerMovement : MonoBehaviour
 
         ghostSR.sprite = spriteRenderer.sprite;
         ghostSR.flipX = spriteRenderer.flipX;
+    }
+
+    void FireBuster(GameObject busterPrefab)
+    {
+        if (busterPrefab == null || shootPoint == null) return;
+
+        GameObject bullet = Instantiate(busterPrefab, shootPoint.position, Quaternion.identity);
+
+        BusterProjectile bp = bullet.GetComponent<BusterProjectile>();
+
+        if (bp != null)
+        {
+            bp.Setup(spriteRenderer.flipX);
+        }
     }
 }

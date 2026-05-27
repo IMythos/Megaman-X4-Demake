@@ -1,0 +1,1729 @@
+fileFormatVersion: 2
+guid: 571ba6d7100102245a184c1aa5e6fee5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6070731441879280024
+    second: normal-zero-x5_0
+  - first:
+      213: 8727311953327378758
+    second: normal-zero-x5_1
+  - first:
+      213: 1866122569865689046
+    second: normal-zero-x5_2
+  - first:
+      213: 1482255381575604906
+    second: normal-zero-x5_3
+  - first:
+      213: -4760751855370331622
+    second: normal-zero-x5_4
+  - first:
+      213: -2114099322201198998
+    second: normal-zero-x5_5
+  - first:
+      213: 279874575555890655
+    second: normal-zero-x5_6
+  - first:
+      213: -4284560526003508884
+    second: normal-zero-x5_7
+  - first:
+      213: -1675569281295394056
+    second: normal-zero-x5_8
+  - first:
+      213: 7393808760982207842
+    second: normal-zero-x5_9
+  - first:
+      213: -2349148641955942810
+    second: normal-zero-x5_10
+  - first:
+      213: 2012627720337176076
+    second: normal-zero-x5_11
+  - first:
+      213: -7125718036828021557
+    second: normal-zero-x5_12
+  - first:
+      213: -3398654157534478007
+    second: normal-zero-x5_13
+  - first:
+      213: 2682444476396015113
+    second: normal-zero-x5_14
+  - first:
+      213: -5983824095243474442
+    second: normal-zero-x5_15
+  - first:
+      213: 3796075298127836630
+    second: normal-zero-x5_16
+  - first:
+      213: -2804240650191774010
+    second: normal-zero-x5_17
+  - first:
+      213: 1153446544456347478
+    second: normal-zero-x5_18
+  - first:
+      213: -6264325752701421653
+    second: normal-zero-x5_19
+  - first:
+      213: -289005548696699892
+    second: normal-zero-x5_20
+  - first:
+      213: -8186531248273052315
+    second: normal-zero-x5_21
+  - first:
+      213: -8725124965227706449
+    second: normal-zero-x5_22
+  - first:
+      213: 5765112017724475103
+    second: normal-zero-x5_23
+  - first:
+      213: 8419699738425145658
+    second: normal-zero-x5_24
+  - first:
+      213: -5440221506925341044
+    second: normal-zero-x5_25
+  - first:
+      213: -2310188745668616231
+    second: normal-zero-x5_26
+  - first:
+      213: 579389081781367772
+    second: normal-zero-x5_27
+  - first:
+      213: 4628396813524822221
+    second: normal-zero-x5_28
+  - first:
+      213: -2148360614034740218
+    second: normal-zero-x5_29
+  - first:
+      213: 8253049963050630202
+    second: normal-zero-x5_30
+  - first:
+      213: -2266764185617377778
+    second: normal-zero-x5_31
+  - first:
+      213: -7178846151189054142
+    second: normal-zero-x5_32
+  - first:
+      213: -312413111024647193
+    second: normal-zero-x5_33
+  - first:
+      213: 1528095575634528040
+    second: normal-zero-x5_34
+  - first:
+      213: -2298489916769273418
+    second: normal-zero-x5_35
+  - first:
+      213: 6232965097793283334
+    second: normal-zero-x5_36
+  - first:
+      213: 8160855773819853086
+    second: normal-zero-x5_37
+  - first:
+      213: 2214752439698223813
+    second: normal-zero-x5_38
+  - first:
+      213: 5205737381424215397
+    second: normal-zero-x5_39
+  - first:
+      213: 6620357070652666389
+    second: normal-zero-x5_40
+  - first:
+      213: -2972410810901863381
+    second: normal-zero-x5_41
+  - first:
+      213: 8524622119098748293
+    second: normal-zero-x5_42
+  - first:
+      213: -1800770028019615180
+    second: normal-zero-x5_43
+  - first:
+      213: 1874064700289546466
+    second: normal-zero-x5_44
+  - first:
+      213: -8429491647649634299
+    second: normal-zero-x5_45
+  - first:
+      213: -4161448821028952524
+    second: normal-zero-x5_46
+  - first:
+      213: 1818707496736928653
+    second: normal-zero-x5_47
+  - first:
+      213: -1448467266367638955
+    second: normal-zero-x5_48
+  - first:
+      213: -8076752843693542441
+    second: normal-zero-x5_49
+  - first:
+      213: -8017389631805743533
+    second: normal-zero-x5_50
+  - first:
+      213: -8228769518456738754
+    second: normal-zero-x5_51
+  - first:
+      213: -7792431636973108147
+    second: normal-zero-x5_52
+  - first:
+      213: 7036631770103987914
+    second: normal-zero-x5_53
+  - first:
+      213: 4584029833840974985
+    second: normal-zero-x5_54
+  - first:
+      213: -8303528403296695068
+    second: normal-zero-x5_55
+  - first:
+      213: 5526128184836725354
+    second: normal-zero-x5_56
+  - first:
+      213: -6508328305982388913
+    second: normal-zero-x5_57
+  - first:
+      213: 5962040885882539599
+    second: normal-zero-x5_58
+  - first:
+      213: 1902115295943023358
+    second: normal-zero-x5_59
+  - first:
+      213: -2274044632896088527
+    second: normal-zero-x5_60
+  - first:
+      213: -2164080554044824071
+    second: normal-zero-x5_61
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: normal-zero-x5_0
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 407
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8669dffeaed60cba0800000000000000
+      internalID: -6070731441879280024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 407
+        width: 51
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64159167bf3ad1970800000000000000
+      internalID: 8727311953327378758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_2
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 405
+        width: 61
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7fe24179cc5e910800000000000000
+      internalID: 1866122569865689046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_3
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 406
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa993d8a67029410800000000000000
+      internalID: 1482255381575604906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_4
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 407
+        width: 91
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a9edc39696eedb0800000000000000
+      internalID: -4760751855370331622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_5
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 408
+        width: 95
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ead401ed539a2e0800000000000000
+      internalID: -2114099322201198998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_6
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 358
+        width: 94
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd0ca1917052e300800000000000000
+      internalID: 279874575555890655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_7
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 359
+        width: 84
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6966e4f6ee2a84c0800000000000000
+      internalID: -4284560526003508884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_8
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 358
+        width: 68
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fad4dfbd9e2fb8e0800000000000000
+      internalID: -1675569281295394056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_9
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 359
+        width: 61
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26df38fd4e51c9660800000000000000
+      internalID: 7393808760982207842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_10
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 357
+        width: 59
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66eef97a1c5266fd0800000000000000
+      internalID: -2349148641955942810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_11
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 353
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c063dcf8f3a4eeb10800000000000000
+      internalID: 2012627720337176076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_12
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 354
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc954df23d5c1d90800000000000000
+      internalID: -7125718036828021557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_13
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 316
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941c0c1fc0e85d0d0800000000000000
+      internalID: -3398654157534478007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_14
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 316
+        width: 62
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e0b410a05f93520800000000000000
+      internalID: 2682444476396015113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 315
+        width: 62
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9e69460bf25fca0800000000000000
+      internalID: -5983824095243474442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_16
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 315
+        width: 74
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d57b850f5e5ea430800000000000000
+      internalID: 3796075298127836630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_17
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 224
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cedb947cf55519d0800000000000000
+      internalID: -2804240650191774010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_18
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 224
+        width: 47
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65fe8bd558dd10010800000000000000
+      internalID: 1153446544456347478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_19
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 226
+        width: 39
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba776e0fae4a019a0800000000000000
+      internalID: -6264325752701421653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_20
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 226
+        width: 38
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0cf0d31cfe3dfbf0800000000000000
+      internalID: -289005548696699892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_21
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 226
+        width: 38
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56dac0c2439936e80800000000000000
+      internalID: -8186531248273052315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_22
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 226
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7c5b262112ae680800000000000000
+      internalID: -8725124965227706449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_23
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 226
+        width: 38
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd68dc2d5dac10050800000000000000
+      internalID: 5765112017724475103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_24
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 226
+        width: 38
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39b7487d48c8d470800000000000000
+      internalID: 8419699738425145658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_25
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 226
+        width: 39
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86564cec537084b0800000000000000
+      internalID: -5440221506925341044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_26
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 226
+        width: 38
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df1152639f80ffd0800000000000000
+      internalID: -2310188745668616231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_27
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 226
+        width: 38
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd37156dc476a0800800000000000000
+      internalID: 579389081781367772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_28
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 272
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc862bd216e5b3040800000000000000
+      internalID: 4628396813524822221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_29
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 270
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ce40f676d7f22e0800000000000000
+      internalID: -2148360614034740218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_30
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 258
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3cfe210739b88270800000000000000
+      internalID: 8253049963050630202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_31
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 258
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06d2b6abf5da80e0800000000000000
+      internalID: -2266764185617377778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_32
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 259
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d323de57d9f5c90800000000000000
+      internalID: -7178846151189054142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_33
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 247
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e383364ee51aabf0800000000000000
+      internalID: -312413111024647193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_34
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 245
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827ca8074d2e43510800000000000000
+      internalID: 1528095575634528040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_35
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 248
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9762f399f1a10e0800000000000000
+      internalID: -2298489916769273418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_36
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 151
+        width: 30
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60560679bb0ff7650800000000000000
+      internalID: 6232965097793283334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_37
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 151
+        width: 39
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e195ab5961f214170800000000000000
+      internalID: 8160855773819853086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_38
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 153
+        width: 92
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c274a11c916cbe10800000000000000
+      internalID: 2214752439698223813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_39
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 154
+        width: 93
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56533c5319e7e3840800000000000000
+      internalID: 5205737381424215397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_40
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 154
+        width: 93
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5127f7afdab30eb50800000000000000
+      internalID: 6620357070652666389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_41
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 154
+        width: 73
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24e9a1bd10efb6d0800000000000000
+      internalID: -2972410810901863381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_42
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 154
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d8155e6aa8d4670800000000000000
+      internalID: 8524622119098748293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_43
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 154
+        width: 34
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a78bd43316207e0800000000000000
+      internalID: -1800770028019615180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_44
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 79
+        width: 29
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e87bda6ae3020a10800000000000000
+      internalID: 1874064700289546466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_45
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 79
+        width: 39
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508a8b0020e640b80800000000000000
+      internalID: -8429491647649634299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_46
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 81
+        width: 92
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436e99778509f36c0800000000000000
+      internalID: -4161448821028952524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_47
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 82
+        width: 93
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83385515d85d3910800000000000000
+      internalID: 1818707496736928653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_48
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 82
+        width: 93
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552306f02b206ebe0800000000000000
+      internalID: -1448467266367638955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_49
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 82
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d33505c41c99ef80800000000000000
+      internalID: -8076752843693542441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_50
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 82
+        width: 48
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e915a9b928cb090800000000000000
+      internalID: -8017389631805743533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_51
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 82
+        width: 34
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ce2d988b98dcd80800000000000000
+      internalID: -8228769518456738754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_52
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 79
+        width: 39
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44c3b556b8bbd390800000000000000
+      internalID: -7792431636973108147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_53
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 6
+        width: 30
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aceb640305327a160800000000000000
+      internalID: 7036631770103987914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_54
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 6
+        width: 39
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98c52edb8debd9f30800000000000000
+      internalID: 4584029833840974985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_55
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 8
+        width: 92
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec422349e0f3cc80800000000000000
+      internalID: -8303528403296695068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_56
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 9
+        width: 93
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a97703e40c0bc40800000000000000
+      internalID: 5526128184836725354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_57
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 9
+        width: 93
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45cc4863e5cda5a0800000000000000
+      internalID: -6508328305982388913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_58
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 9
+        width: 73
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e4263f89c6db250800000000000000
+      internalID: 5962040885882539599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_59
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 9
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa5588a8cba56a10800000000000000
+      internalID: 1902115295943023358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_60
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 9
+        width: 34
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13658dc6478f070e0800000000000000
+      internalID: -2274044632896088527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: normal-zero-x5_61
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 6
+        width: 39
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5e3dea334a7f1e0800000000000000
+      internalID: -2164080554044824071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      normal-zero-x5_0: -6070731441879280024
+      normal-zero-x5_1: 8727311953327378758
+      normal-zero-x5_10: -2349148641955942810
+      normal-zero-x5_11: 2012627720337176076
+      normal-zero-x5_12: -7125718036828021557
+      normal-zero-x5_13: -3398654157534478007
+      normal-zero-x5_14: 2682444476396015113
+      normal-zero-x5_15: -5983824095243474442
+      normal-zero-x5_16: 3796075298127836630
+      normal-zero-x5_17: -2804240650191774010
+      normal-zero-x5_18: 1153446544456347478
+      normal-zero-x5_19: -6264325752701421653
+      normal-zero-x5_2: 1866122569865689046
+      normal-zero-x5_20: -289005548696699892
+      normal-zero-x5_21: -8186531248273052315
+      normal-zero-x5_22: -8725124965227706449
+      normal-zero-x5_23: 5765112017724475103
+      normal-zero-x5_24: 8419699738425145658
+      normal-zero-x5_25: -5440221506925341044
+      normal-zero-x5_26: -2310188745668616231
+      normal-zero-x5_27: 579389081781367772
+      normal-zero-x5_28: 4628396813524822221
+      normal-zero-x5_29: -2148360614034740218
+      normal-zero-x5_3: 1482255381575604906
+      normal-zero-x5_30: 8253049963050630202
+      normal-zero-x5_31: -2266764185617377778
+      normal-zero-x5_32: -7178846151189054142
+      normal-zero-x5_33: -312413111024647193
+      normal-zero-x5_34: 1528095575634528040
+      normal-zero-x5_35: -2298489916769273418
+      normal-zero-x5_36: 6232965097793283334
+      normal-zero-x5_37: 8160855773819853086
+      normal-zero-x5_38: 2214752439698223813
+      normal-zero-x5_39: 5205737381424215397
+      normal-zero-x5_4: -4760751855370331622
+      normal-zero-x5_40: 6620357070652666389
+      normal-zero-x5_41: -2972410810901863381
+      normal-zero-x5_42: 8524622119098748293
+      normal-zero-x5_43: -1800770028019615180
+      normal-zero-x5_44: 1874064700289546466
+      normal-zero-x5_45: -8429491647649634299
+      normal-zero-x5_46: -4161448821028952524
+      normal-zero-x5_47: 1818707496736928653
+      normal-zero-x5_48: -1448467266367638955
+      normal-zero-x5_49: -8076752843693542441
+      normal-zero-x5_5: -2114099322201198998
+      normal-zero-x5_50: -8017389631805743533
+      normal-zero-x5_51: -8228769518456738754
+      normal-zero-x5_52: -7792431636973108147
+      normal-zero-x5_53: 7036631770103987914
+      normal-zero-x5_54: 4584029833840974985
+      normal-zero-x5_55: -8303528403296695068
+      normal-zero-x5_56: 5526128184836725354
+      normal-zero-x5_57: -6508328305982388913
+      normal-zero-x5_58: 5962040885882539599
+      normal-zero-x5_59: 1902115295943023358
+      normal-zero-x5_6: 279874575555890655
+      normal-zero-x5_60: -2274044632896088527
+      normal-zero-x5_61: -2164080554044824071
+      normal-zero-x5_7: -4284560526003508884
+      normal-zero-x5_8: -1675569281295394056
+      normal-zero-x5_9: 7393808760982207842
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
