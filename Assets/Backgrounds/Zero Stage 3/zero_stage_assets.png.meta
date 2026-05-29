@@ -108,7 +108,7 @@ TextureImporter:
         width: 1203
         height: 892
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -121,11 +121,77 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: zero_stage_assets_1
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 189
+        width: 78
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841c614325364ed40ae55294bdc8fcfe
+      internalID: -1177153743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_stage_assets_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 508
+        width: 1184
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb9d82ffe6456648be97414ce2be745
+      internalID: -20654150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zero_stage_assets_3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 240
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82c1bc1c0c619845b036eb71615c7a1
+      internalID: -1761187136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0bfaae89ec130614ab78cd688d136f67
     internalID: 0
     vertices: []
     indices: 
@@ -136,6 +202,9 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       zero_stage_assets_0: -734393081979841607
+      zero_stage_assets_1: -1177153743
+      zero_stage_assets_2: -20654150
+      zero_stage_assets_3: -1761187136
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

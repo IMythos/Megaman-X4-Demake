@@ -35,6 +35,13 @@ public class PlayerMovement : MonoBehaviour
     public GameObject dashDustPrefab;
     public Transform dustSpawnPoint;
 
+    public float knockbackForceX = 7f;
+    public float knockbackForceY = 3f;
+    public float knockbackDuration = 0.25f;
+
+    private float knockbackTimer;
+    private bool isKnockedback;
+
     [Header("Buster System")]
     public InputAction shootAction;
     public Transform shootPoint;
@@ -42,6 +49,13 @@ public class PlayerMovement : MonoBehaviour
     public GameObject semiChargedShotPrefab;
     public GameObject fullyChargedShotPrefab;
     public float shootAnimDuration = 0.25f;
+
+    // Variables de Ráfaga
+    public int maxShoots = 4;
+    public float cooldownTimer = 1.0f;
+    public int currentShotsFired = 0;
+    private float shotCooldownTimer;
+
     private float shootTimeLeft;
     private bool isShooting;
 
@@ -61,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isDashing;
     private float dashTimeLeft;
     private bool isDashJumping;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -85,13 +99,40 @@ public class PlayerMovement : MonoBehaviour
         shootAction.Disable();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        // X-BUSTER
-        if (shootAction.WasPressedThisFrame())
+        // === 1. TEMPORIZADOR DEL RETROCESO ===
+        if (isKnockedback)
+        {
+            knockbackTimer -= Time.deltaTime;
+            if (knockbackTimer <= 0)
+            {
+                isKnockedback = false;
+            }
+        }
+
+        // === 2. TEMPORIZADOR DE RÁFAGA DE BUSTER (NUEVO) ===
+        if (shotCooldownTimer > 0)
+        {
+            shotCooldownTimer -= Time.deltaTime;
+            if (shotCooldownTimer <= 0)
+            {
+                currentShotsFired = 0;
+            }
+        }
+
+        // === 3. SISTEMA DE BUSTER ===
+        if (shootAction.WasPressedThisFrame() && currentShotsFired < maxShoots && shotCooldownTimer <= 0)
         {
             FireBuster(normalShotPrefab);
+
+            currentShotsFired++;
+
+            if (currentShotsFired >= maxShoots)
+            {
+                shotCooldownTimer = cooldownTimer;
+            }
+
             isCharging = true;
             chargeTimer = 0f;
 
@@ -117,10 +158,11 @@ public class PlayerMovement : MonoBehaviour
 
             if (chargeTimer >= fullChargeThreshold)
             {
-                // Carga completa
-            } else if (chargeTimer >= semiChargeThreshold)
+                // Carga completa - falta poner la animacion y prefab
+            }
+            else if (chargeTimer >= semiChargeThreshold)
             {
-                // Carga media
+                // Carga media - falta poner la animacion y prefab
             }
         }
 
@@ -129,7 +171,8 @@ public class PlayerMovement : MonoBehaviour
             if (chargeTimer >= fullChargeThreshold)
             {
                 FireBuster(fullyChargedShotPrefab);
-            } else if (chargeTimer >= semiChargeThreshold)
+            }
+            else if (chargeTimer >= semiChargeThreshold)
             {
                 FireBuster(semiChargedShotPrefab);
             }
@@ -138,41 +181,53 @@ public class PlayerMovement : MonoBehaviour
             chargeTimer = 0f;
         }
 
+        // ===================================================================
+
+        // CHEQUEO DE SUELO
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-        horizontalInput = moveAction.ReadValue<float>();
 
-        if (!isGrounded && rb.linearVelocity.y <= 0)
+        // PROTECCIÓN DE ENTRADAS DE MOVIMIENTO
+        if (!isKnockedback)
         {
-            isDashJumping = false;
-        }
+            horizontalInput = moveAction.ReadValue<float>();
 
-        // Logica de salto
-        if (jumpAction.WasPressedThisFrame() && isGrounded)
-        {
-            float currentJumpForce = jumpForce;
-
-            if (isDashing)
+            if (!isGrounded && rb.linearVelocity.y <= 0)
             {
-                isDashing = false;
-                isDashJumping = true;
-                currentJumpForce = jumpForce * dashJumpForceMultiplier;
+                isDashJumping = false;
             }
 
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, currentJumpForce);
-            isGrounded = false;
+            if (jumpAction.WasPressedThisFrame() && isGrounded)
+            {
+                float currentJumpForce = jumpForce;
+
+                if (isDashing)
+                {
+                    isDashing = false;
+                    isDashJumping = true;
+                    currentJumpForce = jumpForce * dashJumpForceMultiplier;
+                }
+
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, currentJumpForce);
+                isGrounded = false;
+            }
+
+            if (jumpAction.WasPressedThisFrame() && rb.linearVelocity.y > 0)
+            {
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * jumpCutMultiplier);
+            }
+
+            // Dash
+            if (dashAction.WasPressedThisFrame() && !isDashing && isGrounded)
+            {
+                isDashing = true;
+                dashTimeLeft = dashDuration;
+
+                TriggerDashEffect();
+            }
         }
-
-        if (jumpAction.WasPressedThisFrame() && rb.linearVelocity.y > 0)
+        else
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * jumpCutMultiplier);
-        }
-
-        if (dashAction.WasPressedThisFrame() && !isDashing && isGrounded)
-        {
-            isDashing = true;
-            dashTimeLeft = dashDuration;
-
-            TriggerDashEffect();
+            horizontalInput = 0f;
         }
 
         if (horizontalInput > 0)
@@ -194,14 +249,41 @@ public class PlayerMovement : MonoBehaviour
                 SpawnGhost();
                 ghostTimer = ghostSpawnRate;
             }
-        } else
+        }
+        else
         {
             ghostTimer = 0f;
         }
     }
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Boss"))
+        {
+            float direction = (collision.transform.position.x > transform.position.x) ? -1f : 1f;
+            TakeDamageBoss(10, direction);
+        }
+    }
+
+    public void TakeDamageBoss(int damage, float knockbackDirection)
+    {
+        anim.SetTrigger("TakeDamage");
+
+        isKnockedback = true;
+        knockbackTimer = knockbackDuration;
+
+        rb.linearVelocity = Vector2.zero;
+        Vector2 forceVector = new Vector2(knockbackDirection * knockbackForceX, knockbackForceY);
+
+        rb.AddForce(forceVector, ForceMode2D.Impulse);
+
+        Debug.Log("X ha recibido " + damage + " de daño fisico");
+    }
+
     private void FixedUpdate()
     {
+        if (isKnockedback) return;
+
         if (isDashing)
         {
             if (dashTimeLeft > 0)
@@ -209,14 +291,16 @@ public class PlayerMovement : MonoBehaviour
                 float dashDirection = spriteRenderer.flipX ? -1f : 1f;
                 rb.linearVelocity = new Vector2(dashDirection * dashSpeed, rb.linearVelocity.y);
                 dashTimeLeft -= Time.fixedDeltaTime;
-            } else
+            }
+            else
             {
                 isDashing = false;
             }
-        } else if (isDashJumping)
+        }
+        else if (isDashJumping)
         {
-            rb.linearVelocity = new Vector2(horizontalInput * dashSpeed, rb.linearVelocity.y);   
-        } 
+            rb.linearVelocity = new Vector2(horizontalInput * dashSpeed, rb.linearVelocity.y);
+        }
         else
         {
             rb.linearVelocity = new Vector2(horizontalInput * moveSpeed, rb.linearVelocity.y);
